@@ -1,5 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-gradient(linear, left top, right bottom, from(#c4f2ff), to(#f8ffff)) fixed;
+  background: linear-gradient(to bottom right, #c4f2ff, #f8ffff) fixed;
 }
 
 h1 {
@@ -26,5 +28,6 @@ table.classement thead > tr > th {
 
 table.classement tbody > tr > th {
   font-weight: lighter;
+  padding: 5px;
 }
 /*# sourceMappingURL=style.css.map */
