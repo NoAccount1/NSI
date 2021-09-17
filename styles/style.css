@@ -4,6 +4,25 @@ body {
   background: linear-gradient(to bottom right, #c4f2ff, #f8ffff) fixed;
   margin: 0;
 }
+header img {
+  width: 30px;
+}
+main {
+  margin: auto 30px;
+}
+div.images img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
+div.images img#logo {
+  text-align:center;
+}
+
+li a {
+  text-decoration: none;
+}
 
 h1.title {
   padding: 30px 0;
@@ -13,20 +32,22 @@ h1.title {
   text-align: center;
 }
 
-h1.top5 {
-  margin-left: 20px;
-}
-
 div.sommaire {
   border-radius: 10px;
-  margin-left: 50px;
+  margin: 20px auto;
   padding: 10px;
-  max-width: 300px;
+  min-width: 300px;
   border: solid 3px black;
 }
 
 div.sommaire h2 {
-  margin-top: 0;
+  background-color: #0099ff;
+  padding: 5px;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 button {
@@ -39,7 +60,7 @@ button {
   margin: 5px;
 }
 
-table.classement {
+table.puissance {
   border: 1px solid #000;
   width: 75%;
   margin: auto;
@@ -47,18 +68,27 @@ table.classement {
   border-collapse: collapse;
 }
 
-table.classement th {
+table.puissance th {
   border: 1px solid #000;
 }
 
-table.classement thead > tr > th {
+table.puissance thead > tr > th {
   font-weight: bold;
   text-align: center;
   padding: 10px;
 }
 
-table.classement tbody > tr > th {
+table.puissance tbody > tr > th {
   font-weight: normal;
   padding: 5px;
+}
+
+a#back {
+  position: absolute;
+}
+
+li.index {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
